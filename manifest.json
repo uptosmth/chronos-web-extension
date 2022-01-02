@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Chronos",
+  "version": "1.0",
+  "description": "Record & report to chronos current active tab info",
+  "permissions": [
+    "tabs",
+    "alarms",
+    "http://localhost:10203/*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
+
